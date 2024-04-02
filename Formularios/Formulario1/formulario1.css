@@ -1,0 +1,71 @@
+
+html{
+    background-color: rgb(102, 101, 101);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+form{
+    width: 400px;
+    background-color: rgb(193, 193, 191);
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 5px;
+    padding: 1em;
+    
+   
+}
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: .25em;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    font-size: 1em;
+}
+legend{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #454e4f;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.actions{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    
+}
+.btn__entrar{
+    color: white;
+    background-color: rgb(71, 70, 119);
+    cursor: pointer;
+}
+.btn__apagar {
+    color: white;
+    background-color: rgb(187, 74, 74);
+    cursor: pointer;
+    
+}
